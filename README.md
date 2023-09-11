@@ -14,6 +14,8 @@ Kubernetes Cluster Creation Using kubeadm
 1. SSH into your master node or access it directly.
 2. Open the hostname file for editing:
    ```bash
+   sudo su
+   yum install nano
    nano /etc/hostname
    ```
 3. Change the hostname to "master" and save the file.
