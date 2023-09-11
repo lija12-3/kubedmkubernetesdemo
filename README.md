@@ -8,7 +8,7 @@ Kubernetes Cluster Creation Using kubeadm
 - You are using CentOS 7.
 - You have root or sudo privileges on the master node.
 - You have worker nodes prepared (not covered in this guide).
- ![Screenshot 2023-09-11 182945](https://github.com/lija12-3/kubedmkubernetesdemo/assets/105269384/e276acd4-0ca5-48ad-b23d-996582ef459a)
+![Screenshot 2023-09-11 182945](https://github.com/lija12-3/kubedmkubernetesdemo/assets/105269384/e276acd4-0ca5-48ad-b23d-996582ef459a)
 
 ### Step 1: Change Hostname
 1. SSH into your master node or access it directly.
