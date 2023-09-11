@@ -47,6 +47,11 @@ Kubernetes Cluster Creation Using kubeadm
    ```bash
    systemctl disable firewalld
    ```
+3. Disable swap
+4. ```bash
+   sed -i '/swap/d' /etc/fstab
+   swapoff -a
+```
 
 ### Step 4: Configure Kernel Parameters
 1. Enable required kernel parameters by creating a configuration file:
@@ -91,6 +96,9 @@ Kubernetes Cluster Creation Using kubeadm
 ```
 
 ### Step 6: Initialize the Kubernetes Cluster (Master Node)
+ifconfig
+on master node
+kubeadm init --apiserver-advertise-address=<MasterServerIP> --pod-network-cidr=192.168.0.0/16
 1. Sometimes, you might need to reset the Kubernetes configuration on the master node:
    ```bash
    kubeadm reset
