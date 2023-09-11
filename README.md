@@ -83,8 +83,9 @@ Kubernetes Cluster Creation Using kubeadm
 
 3. Enable and start the kubelet service:
    ```bash
-   systemctl enable kubelet
-   systemctl start kubelet
+ service kubelet status
+ service kubelet start
+ chkconfig kubelet on
    ```
 
 ### Step 6: Initialize the Kubernetes Cluster (Master Node)
