@@ -1,10 +1,10 @@
 # kubedmkubernetesdemo
 Kubernetes Cluster Creation Using kubeadm
-In this guide, we'll walk through the step-by-step process of creating a Kubernetes cluster using kubeadm. This setup includes a master node with 4GB of RAM (t2.medium) and two worker nodes, each with 2GB of RAM (t2.micro). kubeadm is a tool that helps simplify the process of setting up a Kubernetes cluster.
-Creating a Kubernetes cluster on CentOS 7 using your provided commands involves several steps. Below is a step-by-step procedure for setting up a Kubernetes cluster using `kubedm`:
+
 
 ### Prerequisites:
 - You have a master node with at least 4 GB of RAM.
+- Two worker nodes, each with 2GB of RAM (t2.micro).
 - You are using CentOS 7.
 - You have root or sudo privileges on the master node.
 - You have worker nodes prepared (not covered in this guide).
