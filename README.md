@@ -1,6 +1,4 @@
-Creating a README file for your GitHub repository is a great way to document your setup and instructions for others to use. Here's a README file based on the commands and instructions you provided for deploying Kubernetes on CentOS 7:
 
-```markdown
 # Kubernetes Deployment on CentOS 7
 
 This guide outlines the steps to set up a Kubernetes cluster on CentOS 7 with one master node and one worker node.
